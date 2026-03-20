@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ye Alin — Chinese Artist</title>
+  <meta name="description" content="Official website of Ye Alin (叶阿林), celebrated Chinese contemporary artist known for her vibrant folk-style oil paintings and cultural storytelling." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- =====================  NAVIGATION  ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-zh">叶阿林</span>
+        <span class="logo-en">Ye Alin</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#timeline">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =====================  HERO (PARALLAX)  ===================== -->
+  <section class="hero" id="hero">
+    <div class="parallax-bg" id="parallaxBg"></div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating ink brush strokes (decorative SVG) -->
+    <svg class="hero-brush hero-brush--1" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M10,30 Q60,5 110,30 Q160,55 190,30" stroke="rgba(255,200,100,0.35)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </svg>
+    <svg class="hero-brush hero-brush--2" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M10,30 Q60,55 110,30 Q160,5 190,30" stroke="rgba(255,150,80,0.25)" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+
+    <div class="hero-content">
+      <p class="hero-pretext reveal-fade">Chinese Artist</p>
+      <h1 class="hero-title">
+        <span class="title-zh reveal-slide-up" style="--delay:0.1s">叶阿林</span>
+        <span class="title-en reveal-slide-up" style="--delay:0.3s">Ye&nbsp;Alin</span>
+      </h1>
+      <p class="hero-tagline reveal-slide-up" style="--delay:0.5s">
+        Painting the spirit of the land through the eyes of its people
+      </p>
+      <a href="#about" class="hero-cta reveal-slide-up" style="--delay:0.7s">Discover Her World</a>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- =====================  ABOUT  ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-label">About</span>
+        <h2 class="section-title">The Artist</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-slide-left">
+          <div class="about-image-frame">
+            <img
+              src="https://bkimg.cdn.bcebos.com/pic/9f510fb30f2442a7d9330b03dd43ad4bd01302c9?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_536"
+              alt="Ye Alin portrait"
+              class="about-image"
+              loading="lazy"
+              onerror="this.style.display='none'; this.parentElement.classList.add('no-image')"
+            />
+            <div class="image-caption">Ye Alin · 叶阿林</div>
+          </div>
+          <div class="about-accent-block" aria-hidden="true"></div>
+        </div>
+        <div class="about-text reveal-slide-right">
+          <h3 class="about-name">Ye Alin <em>(叶阿林)</em></h3>
+          <p class="about-lead">
+            Ye Alin is a celebrated contemporary Chinese artist renowned for her vivid oil paintings that fuse folk tradition with modern expressionism. Born in Yunnan Province, her work draws deeply from the rich tapestry of China's ethnic minority cultures, landscapes, and daily village life.
+          </p>
+          <p>
+            Her paintings are characterised by bold, luminous colour palettes and a compassionate eye for the human figure — particularly women and children of China's rural communities. She captures fleeting moments of grace with an immediacy that feels both timeless and deeply personal.
+          </p>
+          <p>
+            Ye Alin has exhibited widely across mainland China and internationally, earning recognition from the China Artists Association and institutions devoted to the preservation and promotion of folk-rooted fine art.
+          </p>
+          <div class="about-facts">
+            <div class="fact-item">
+              <span class="fact-label">Origin</span>
+              <span class="fact-value">Yunnan Province, China</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Medium</span>
+              <span class="fact-value">Oil on Canvas · Watercolour</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Style</span>
+              <span class="fact-value">Folk Realism · Expressionism</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-label">Member</span>
+              <span class="fact-value">China Artists Association</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================  QUOTE / PARALLAX DIVIDER  ===================== -->
+  <div class="parallax-quote" id="parallaxQuote">
+    <div class="parallax-quote-bg" id="parallaxQuoteBg"></div>
+    <div class="parallax-quote-overlay"></div>
+    <blockquote class="reveal-fade">
+      <p>"Every brushstroke carries the memory of a place, a face, a feeling that must not be forgotten."</p>
+      <cite>— Ye Alin</cite>
+    </blockquote>
+  </div>
+
+  <!-- =====================  GALLERY  ===================== -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title">Selected Works</h2>
+        <p class="section-subtitle">A curated glimpse into Ye Alin's artistic universe</p>
+      </div>
+
+      <div class="gallery-filter reveal-fade">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="folk">Folk Life</button>
+        <button class="filter-btn" data-filter="landscape">Landscape</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+
+        <article class="gallery-card reveal-fade" data-category="portrait" style="--delay:0s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/9f510fb30f2442a7d9330b03dd43ad4bd01302c9?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Portrait by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>Village Portrait</h3>
+              <span class="gallery-tag">Portrait</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal-fade" data-category="folk" style="--delay:0.1s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/fc1f4134970a304e251ff24bc1d3fd1f41345b3e?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Folk life painting by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>Market Morning</h3>
+              <span class="gallery-tag">Folk Life</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal-fade" data-category="landscape" style="--delay:0.2s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/4afbfbedab64034f78f02459a9c379310a551d53?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Yunnan landscape by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>Yunnan Dusk</h3>
+              <span class="gallery-tag">Landscape</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal-fade" data-category="folk" style="--delay:0.3s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/9f2f070828381f30e924bab8ae014c086e06f032?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Folk dance painting by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>Festival Dance</h3>
+              <span class="gallery-tag">Folk Life</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal-fade" data-category="portrait" style="--delay:0.4s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/8326cffc1e178a82b9018e3cff03738da977e82c?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Portrait series by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>The Elder</h3>
+              <span class="gallery-tag">Portrait</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="gallery-card gallery-card--wide reveal-fade" data-category="landscape" style="--delay:0.5s">
+          <div class="gallery-card-inner">
+            <div class="gallery-img-wrap">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/4afbfbedab64034f78f02459a9c379310a551d53?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_400"
+                alt="Mountain vista by Ye Alin"
+                loading="lazy"
+                onerror="this.parentElement.classList.add('img-fallback')"
+              />
+              <div class="gallery-overlay">
+                <span class="gallery-overlay-icon">&#x2197;</span>
+              </div>
+            </div>
+            <div class="gallery-info">
+              <h3>Mountain Vista</h3>
+              <span class="gallery-tag">Landscape</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================  NOTABLE WORKS  ===================== -->
+  <section class="section works" id="works">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-label">Works</span>
+        <h2 class="section-title">Notable Paintings</h2>
+      </div>
+      <div class="works-list">
+
+        <div class="work-item reveal-slide-left" style="--delay:0s">
+          <div class="work-number">01</div>
+          <div class="work-details">
+            <h3 class="work-title">The Miao Festival Series</h3>
+            <p class="work-desc">A multi-canvas series depicting the vibrancy of Miao ethnic minority festivals — their silver jewellery, indigo robes, and communal joy.</p>
+            <span class="work-year">Series · Oil on Canvas</span>
+          </div>
+          <div class="work-accent"></div>
+        </div>
+
+        <div class="work-item reveal-slide-left" style="--delay:0.15s">
+          <div class="work-number">02</div>
+          <div class="work-details">
+            <h3 class="work-title">Terraced Fields at Dawn</h3>
+            <p class="work-desc">An expansive landscape of the Yuanyang rice terraces flooded with the first light of dawn, reflecting sky and cloud in still water.</p>
+            <span class="work-year">Landscape · Oil on Canvas</span>
+          </div>
+          <div class="work-accent"></div>
+        </div>
+
+        <div class="work-item reveal-slide-left" style="--delay:0.3s">
+          <div class="work-number">03</div>
+          <div class="work-details">
+            <h3 class="work-title">Grandmother's Loom</h3>
+            <p class="work-desc">An intimate portrait of a Dai elder at her traditional loom, celebrating the intergenerational transmission of craft and memory.</p>
+            <span class="work-year">Portrait · Oil on Canvas</span>
+          </div>
+          <div class="work-accent"></div>
+        </div>
+
+        <div class="work-item reveal-slide-left" style="--delay:0.45s">
+          <div class="work-number">04</div>
+          <div class="work-details">
+            <h3 class="work-title">Children of the Plateau</h3>
+            <p class="work-desc">A warmly observed series of children at play in the high-altitude villages of Guizhou, bursting with colour and movement.</p>
+            <span class="work-year">Series · Oil on Canvas</span>
+          </div>
+          <div class="work-accent"></div>
+        </div>
+
+        <div class="work-item reveal-slide-left" style="--delay:0.6s">
+          <div class="work-number">05</div>
+          <div class="work-details">
+            <h3 class="work-title">Red River Reflection</h3>
+            <p class="work-desc">A sweeping view of the Red River winding through ancient mountains, capturing the interplay of mist, earth, and fading light.</p>
+            <span class="work-year">Landscape · Oil on Canvas</span>
+          </div>
+          <div class="work-accent"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================  TIMELINE / JOURNEY  ===================== -->
+  <section class="section timeline" id="timeline">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-label">Journey</span>
+        <h2 class="section-title">Career Milestones</h2>
+      </div>
+      <div class="timeline-line" aria-hidden="true"></div>
+      <div class="timeline-items">
+
+        <div class="timeline-item timeline-item--left reveal-slide-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Early Years</span>
+            <h3>Born in Yunnan</h3>
+            <p>Ye Alin grew up surrounded by the lush mountains and vibrant folk culture of Yunnan Province, which would shape her artistic vision for life.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right reveal-slide-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Art Education</span>
+            <h3>Formal Training</h3>
+            <p>Studied fine arts at a leading Chinese art institution, where she honed her technique in oil painting and developed her distinctive expressive style.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--left reveal-slide-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">First Exhibition</span>
+            <h3>National Debut</h3>
+            <p>Her debut solo exhibition in Beijing introduced her folk-infused realism to the national art scene, earning critical acclaim and public attention.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right reveal-slide-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Association Membership</span>
+            <h3>China Artists Association</h3>
+            <p>Elected as a member of the China Artists Association — a recognition of her enduring contribution to Chinese contemporary fine art.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--left reveal-slide-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">International Stage</span>
+            <h3>Global Exhibitions</h3>
+            <p>Works exhibited in France, the United States, and Southeast Asia, broadening international appreciation of folk-rooted Chinese painting.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--right reveal-slide-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Present</span>
+            <h3>Continued Legacy</h3>
+            <p>Ye Alin continues to paint, teach, and advocate for the preservation of ethnic minority cultures through her art — a living bridge between tradition and modernity.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================  STATS BANNER  ===================== -->
+  <div class="stats-banner reveal-fade">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-target="30">0</span>
+        <span class="stat-unit">+</span>
+        <span class="stat-label">Years of Practice</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="200">0</span>
+        <span class="stat-unit">+</span>
+        <span class="stat-label">Works Created</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="15">0</span>
+        <span class="stat-unit">+</span>
+        <span class="stat-label">Solo Exhibitions</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="12">0</span>
+        <span class="stat-unit">+</span>
+        <span class="stat-label">Countries Exhibited</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================  CONTACT  ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">For exhibition enquiries, collections, and press</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal-slide-up" style="--delay:0s">
+          <div class="contact-icon">&#9993;</div>
+          <h3>Email</h3>
+          <p>For general enquiries and press requests, reach out via email.</p>
+          <a href="mailto:info@yealinart.com" class="contact-link">info@yealinart.com</a>
+        </div>
+        <div class="contact-card reveal-slide-up" style="--delay:0.15s">
+          <div class="contact-icon">&#128247;</div>
+          <h3>Social Media</h3>
+          <p>Follow Ye Alin's latest works and studio updates on social platforms.</p>
+          <a href="#" class="contact-link">@YeAlinArt</a>
+        </div>
+        <div class="contact-card reveal-slide-up" style="--delay:0.3s">
+          <div class="contact-icon">&#127968;</div>
+          <h3>Studio</h3>
+          <p>Studio visits by appointment in Kunming, Yunnan Province, China.</p>
+          <a href="#contact" class="contact-link">Request Visit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================  FOOTER  ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-zh">叶阿林</span>
+        <span class="logo-en">Ye Alin</span>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Ye Alin. All rights reserved.</p>
+      <p class="footer-attribution">
+        Artist information sourced from <a href="https://baike.baidu.com/item/叶阿林/62875934" target="_blank" rel="noopener">Baidu Baike</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- =====================  LIGHTBOX  ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&#x2715;</button>
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <img class="lightbox-img" id="lightboxImg" alt="" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
